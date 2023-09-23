@@ -32,17 +32,17 @@ body{
 .location__general{
     display: grid;
     place-items: center;
-    margin: 1em;
+    margin: .2em;
 }
 
 .location {
     display: grid;
     place-items: center;
-    width: 100%;
+    width: 95%;
     max-width: 400px;
     background-color: #072226;
     border-radius: 9px;
-    box-shadow: 10px 5px 5px  rgba(0, 0, 0, .5);
+    box-shadow: 10px 5px 5px  rgba(0, 0, 0, .4);
 }
 
 .location__name{
@@ -55,7 +55,7 @@ body{
 .location__list{
     display: flex;
     place-items: center;
-    gap: 3em;
+    gap: 2em;
 }
 
 .location__item{
@@ -79,6 +79,7 @@ body{
     color: white;
     text-align: center;
     margin-left: 1em;
+
 }
 /*********** Residents **********/
 .resident__general{
