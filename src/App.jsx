@@ -46,9 +46,13 @@ function App() {
           <button className='btn'>Search</button>
         </form>
         </div>
+
         {
-           hasError
-            ? <h2>Tienes que poner un numero entre el 1 y el 126</h2>
+          hasError
+          ?
+          <div className='error_container'>
+           <h2 className='error'>Tienes que poner un numero entre el 1 y el 126</h2>
+          </div>
             : (
               <>
               <div className='location__general'>
