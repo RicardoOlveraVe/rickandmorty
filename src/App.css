@@ -1,0 +1,171 @@
+/*********** Body **********/
+.header__body{
+    background: url(../public/Frame\ 259.svg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+body{
+    background-color: #121f48;
+}
+/*********** Input **********/
+.general__form{
+    display: flex;
+    margin: 1em;
+}
+.form{
+    margin: auto;
+
+}
+.input{
+    border-radius: 5px 0 0 5px;
+}
+.btn{
+    border-radius: 0 5px 5px 0;
+    background-color:#88e23b;
+    color: white;
+
+}
+
+/*********** Location **********/
+.location__general{
+    display: grid;
+    place-items: center;
+    margin: 1em;
+}
+
+.location {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #072226;
+    border-radius: 9px;
+}
+
+.location__name{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+    color:#88e23b;
+}
+
+.location__list{
+    display: flex;
+    place-items: center;
+    gap: 3em;
+}
+
+.location__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.location__label{
+    display: grid;
+    font-size: 0.8em;
+    color: #aaa;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+.location__value{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-left: 1em;
+}
+/*********** Residents **********/
+.resident__general{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    place-items: center;
+}
+.resident {
+    width: 95%;
+    max-width: 300px;
+    background-color: #072226;
+    color: white;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.resident__header {
+    position: relative;
+}
+
+.resident__status{
+    display: flex;
+    position: absolute;
+    top: 1em;
+    background-color:  #072226;
+    width: 45%;
+    min-width: 100px;
+    max-width: 130x;
+    padding: 0.3em 0.7em;
+    border-radius: 0 0.5em 0.5em 0;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.resident__status__circle{
+    display: block;
+    width: 12%;
+    aspect-ratio: 1;
+    background-color: #aaa;
+    border-radius: 50% ;
+}
+.resident__status__value{
+    
+    font-size: 0.8em;
+}
+
+.Alive{
+    background-color: #00d547;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.resident__body{
+    padding: 1.5em 1em 1em;
+}
+
+.resident__name{
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 112%;
+}
+
+.resident__separator{
+    margin-bottom: 0.5em;
+}
+
+.resident_list{
+    display: grid;
+    gap: 0.7em;
+}
+
+.resident__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.resident__label{
+    font-size: 0.8em;
+    padding-left: 1em;
+    color: #aaa;
+}
+
+.resident__value{
+    font-weight: 500;
+}
+
+
