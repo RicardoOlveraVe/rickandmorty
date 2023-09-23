@@ -42,7 +42,7 @@ function App() {
       </header>
         <div className='general__form'>
         <form className='form' onSubmit={handleSubmit}>
-          <input className='input' /*onChange={handleError}*/ ref={inputSearch} type="text" />
+          <input className='input' /*onChange={handleError}*/ ref={inputSearch} type="text" placeholder='ID' />
           <button className='btn'>Search</button>
         </form>
         </div>
